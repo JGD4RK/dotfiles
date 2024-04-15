@@ -1,0 +1,13 @@
+# Joan's Alacritty toml file
+
+import = [ "~/.config/alacritty/catppuccin-latte.toml"]
+
+[window]
+opacity = 0.5
+padding.x = 10
+padding.y = 10
+decorations = "Full"
+decorations_theme_variant = "Dark"
+
+[env]
+TERM = "xterm-256color"

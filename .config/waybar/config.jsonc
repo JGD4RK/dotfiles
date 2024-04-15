@@ -1,0 +1,32 @@
+{
+    // Joan's waybarconfig file
+
+    // Position and Size
+
+    "position": "top",
+    "layer": "top",
+
+    "height": 35,
+    "margin-top": 0,
+    "margin-bottom": 0,
+    "margin-left": 0,
+    "margin-right": 0,
+
+    // Load Modules
+
+    "include": ["$HOME/.config/waybar/modules.json"],
+
+    // Modules
+
+    "modules-left": ["custom/exit", "hyprland/workspaces"],
+
+    "modules-center": ["tray"],
+
+    "modules-right": [ "cpu", "memory", "custom/gpu-usage", "pulseaudio", "clock"],
+
+    // Groups
+    "group/system_monitor": {
+            "orientation":"horizontal",
+            "modules": ["cpu", "memory"]
+    }
+}
